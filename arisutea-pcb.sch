@@ -1606,8 +1606,8 @@ L arisutea-pcb-r1:arisutea_logo LOGO5
 U 1 1 6063AB78
 P 10100 6100
 F 0 "LOGO5" H 10100 6300 50  0000 C CNN
-F 1 "arisutea_logo" H 10175 6474 50  0001 C CNN
-F 2 "arisutea:arisutea_logo" H 10100 6450 50  0001 C CNN
+F 1 "QMK_Logo_Light" H 10175 6474 50  0001 C CNN
+F 2 "3x6_graphics:QMK_Logo_Light" H 10100 6450 50  0001 C CNN
 F 3 "" H 10100 6450 50  0001 C CNN
 	1    10100 6100
 	1    0    0    -1  
@@ -1617,8 +1617,8 @@ L arisutea-pcb-r1:arisutea_logo LOGO6
 U 1 1 6063AEC9
 P 10450 6100
 F 0 "LOGO6" H 10450 6300 50  0000 C CNN
-F 1 "arisutea_logo" H 10525 6474 50  0001 C CNN
-F 2 "arisutea:arisutea_logo" H 10450 6450 50  0001 C CNN
+F 1 "QMK_Logo_Light" H 10525 6474 50  0001 C CNN
+F 2 "3x6_graphics:QMK_Logo_Light" H 10450 6450 50  0001 C CNN
 F 3 "" H 10450 6450 50  0001 C CNN
 	1    10450 6100
 	1    0    0    -1  
