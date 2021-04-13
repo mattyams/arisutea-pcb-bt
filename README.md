@@ -7,9 +7,9 @@
 - [X] Assemble Acrylic Case to Arisutea design 03/27/21
 - [X] Assemble FR4 Case to Arisutea design 03/27/21
 - [X] v0.6 PCBs ordered 03/27/21
-- [ ] Assemble Arisutea v0.6 PCB once received
+- [X] Assemble Arisutea v0.6 PCB once received 04/12/21
 - [ ] Third Acrylic Case ordered for LEDs
-- [ ] Assemble Acrylic Case to Arisutea v0.6 design
+- [ ] Assemble 'New' Acrylic Case to Arisutea v0.6 design
 - [X] Edit QMK firmware for Arisutea design 03/29/21
 # Arisutea - Arisu Keyboard PCB with More Modifications...now with MORE!
 ## Disclaimer: Use these files at your own risk.
@@ -22,20 +22,26 @@ Key modifications to the PCB:
 - Addition of full backspace position, connected to switch 59 (row 0, column 13).
   - Removed switch 63 and repositioned switch 59 to add full backspace position.
 - USB-C ESD rework.
-- Added underglow LED strip support (v0.6 - not tested - on order)
-- Added LED indicators for CAPS and NUM lock as well as layer. (v0.6 - not tested - on order)
+- Added underglow LED strip support (v0.6)
+- Added LED indicators for CAPS and NUM lock as well as layer. (v0.6)
 - Updated JSON layout file for this particular keyboard.
 - Original mounting holes have been widened to allow for M2+ standoffs to pass through the PCB to the FR4 plates linked below, so if you planned on using this in a different case other than the one provided or these plates....you might have a bad time. 
 
 ![Arisutea](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-bottom.png)
 ![Arisutea-top](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-top.png)
 ![Arisutea-assembled](https://i.imgur.com/b7rdr05.jpg)
+v0.6
+![Arisutea-v0.6](https://imgur.com/pfPOXME.jpg)
+![Arisutea-v0.6-back](https://imgur.com/P1S1BPK.jpg)
 
 Just messing around with different switches.
 ![Arisutea-switches](https://i.imgur.com/Znw3HWQ.jpg)
 
 The family, so far....
 ![Arisutea-builds](https://i.imgur.com/b8SRfIZ.jpg)
+
+# QMK Firmware
+This can be located in the [firmware](https://github.com/mattyams/arisutea-pcb/tree/master/firmware) folder. 
 
 # Case Files for Ponoko
 
@@ -54,6 +60,7 @@ Additionaly I have created files for FR4 plates to be made and used with this la
 ![FR4-Plates-2](https://imgur.com/L0FgL0s.jpg)
 ![FR4-Plates-3](https://imgur.com/QA77TCx.jpg)
 ![FR4-Plates-6](https://imgur.com/sJeoB8D.jpg)
+
 ## Exceprts from original designer, FateNozomi:
 
 Key differences:
