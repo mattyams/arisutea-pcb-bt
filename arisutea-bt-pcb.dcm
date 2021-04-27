@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AO3401A
+D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP AP2112K-3.3
+D 150mA low dropout linear regulator, wide input voltage range, 1.5V fixed positive output, SOT-23-5
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP2204.pdf
+$ENDCMP
+#
+$CMP Battery_Cell
+D Single-cell battery
+K battery cell
+F ~
+$ENDCMP
+#
+$CMP Conn_01x04
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Device_C_Small
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP Device_D_Small
+D Diode, small symbol
+K diode
+F ~
+$ENDCMP
+#
+$CMP Switch_SW_Keeb
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP TP4504
+D Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package
+K battery charger lithium
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+$ENDCMP
+#
+$CMP nRF52840_holyiot_18010
+D nRF52840 BT LE module
+K Bluetooth LE nRF nordic
+F http://www.holyiot.com/tp/2019042516322180424.pdf
+$ENDCMP
+#
+#End Doc Library
